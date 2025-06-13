@@ -1,0 +1,54 @@
+@import url(./css/variables.css);
+@import url(./css/skin.css);
+@import url(./css/components.css);
+@import url(./css/font-face.css);
+@import url(./css/typography.css);
+@import url(./css/home.css);
+@import url(./css/ranking.css);
+@import url(./css/accountform.css);
+@import url(./css/luckywheel.css);
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.width-fit {
+  width: fit-content !important;
+}
+.blink-text {
+  animation: blinkColor 1s infinite;
+  font-weight: bold;
+}
+
+@keyframes blinkColor {
+  0% {
+    color: white;
+  }
+
+  33% {
+    color: black;
+  }
+
+  66% {
+    color: red;
+  }
+
+  100% {
+    color: white;
+  }
+}

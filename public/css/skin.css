@@ -1,0 +1,73 @@
+/* Body */
+body::-webkit-scrollbar-track {
+  background-color: var(--color-gray);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-border);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary-dark);
+}
+
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text);
+}
+
+a,
+p {
+  color: var(--color-text-light);
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+/* Custom */
+.light-bg {
+  background-color: var(--color-light);
+}
+
+.dark-bg {
+  background-color: var(--color-dark);
+}
+
+.gray-bg {
+  background-color: var(--color-gray);
+}
+
+.primary-bg {
+  background-color: var(--color-primary);
+}
+
+.secondary-bg {
+  background-color: var(--color-secondary);
+}
+
+.tertiary-bg {
+  background-color: var(--color-tertiary);
+}
+
+.featured-forum-bg {
+  background-color: var(--color-featured-forum);
+}
+
+.primary-text {
+  color: var(--color-primary);
+}
+
+.light-brown-text {
+  color: var(--color-light-brown);
+}
+
+.red-text {
+  color: var(--color-red);
+}

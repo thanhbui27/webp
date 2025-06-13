@@ -1,0 +1,23 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 170%;
+  font-size: var(--global-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 135%;
+  margin-top: 0;
+  padding-bottom: var(--gap-xs);
+  font-weight: normal;
+}
+
+a,
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
