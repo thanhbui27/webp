@@ -45,8 +45,14 @@
             <a class="custom-btn" href="" target="_blank"
                 style="flex: 1; text-align: center;">Fanpage</a>
         </div>
-        <div class="header-menu custom-container">
-        </div>
+         <?php if(!isset($_SESSION['user'])) : ?>
+                <div class="header-menu custom-container">
+                    <a class="custom-btn" href="/dangnhap">Đăng nhập</a>
+                    <a class="custom-btn" href="/dangky">Đăng ký</a>
+                </div>
+            <?php else: ?>
+                <div class="header-menu custom-container"></div>
+            <?php endif; ?>
         <div class="header-menu custom-container"
             style="display: flex; gap: 10px; justify-content: center; margin: 4px 0; padding: 0;">
             <div style="text-align: center;">
